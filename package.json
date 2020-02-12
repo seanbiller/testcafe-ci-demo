@@ -7,8 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "ciTest": "testcafe chrome:headless tests/**/* -r xunit:/tmp/test-results/res.xml",
-    "test": "testcafe chrome tests/"
+    "test": "testcafe chrome:headless tests/**/* -r xunit:/tmp/test-results/res.xml",
+    "displayTest": "testcafe chrome tests/"
   },
   "repository": {
     "type": "git",
